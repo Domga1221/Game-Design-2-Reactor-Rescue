@@ -23,6 +23,7 @@ public class PlayerMovementToBeat : MonoBehaviour
     public Tilemap collisionTilemap;
 
     public int score;
+    public int numberOfCollectibles;
 
     // Start is called before the first frame update
     void Start()
@@ -137,7 +138,7 @@ public class PlayerMovementToBeat : MonoBehaviour
             Debug.Log(score);
         }
 
-        if(collision.gameObject.layer == LayerMask.NameToLayer("Goal") && score == 3)
+        if(collision.gameObject.layer == LayerMask.NameToLayer("Goal") && score == numberOfCollectibles)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
