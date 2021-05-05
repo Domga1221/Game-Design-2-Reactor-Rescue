@@ -14,6 +14,8 @@ public class PlayerMovementToBeat : MonoBehaviour
     public float nextTimeToMove;
 
     SpriteRenderer renderer;
+    public Sprite glowSprite;
+    public Sprite normalSprite;
 
     public Conductor conductor;
 
@@ -111,11 +113,14 @@ public class PlayerMovementToBeat : MonoBehaviour
 
         if(conductor.songPositionInBeats >= nextTimeToMove -0.2f && conductor.songPositionInBeats <= nextTimeToMove + 0.2f)
         {
-            renderer.color = new Color(0, 1, 0);
+            //renderer.color = new Color(0, 1, 0);
+            // change to glow
+            renderer.sprite = glowSprite;
         }
         else
         {
-            renderer.color = new Color(0, 0, 0);
+            //renderer.color = new Color(0, 0, 0);
+            renderer.sprite = normalSprite;
         }
     }
 
