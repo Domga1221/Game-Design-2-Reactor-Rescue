@@ -9,10 +9,14 @@ public class GameUI : MonoBehaviour
     public GameObject GameOverScreen;
     public GameObject LevelCompleteScreen;
 
+    public bool paused;
+
     public void Resume()
     {
         PauseMenuUI.SetActive(false);
         UIBar.SetActive(true);
+
+        paused = false;
     }
 
     public void Restart()
@@ -25,8 +29,7 @@ public class GameUI : MonoBehaviour
         PauseMenuUI.SetActive(true);
         UIBar.SetActive(false);
 
-        //TODO: Pause Game
-
+        paused = true;
     }
 
     public void LoadMenu()
@@ -45,8 +48,9 @@ public class GameUI : MonoBehaviour
         GameOverScreen.SetActive(true);
         UIBar.SetActive(false);
 
-        //TODO: Pause Game
+        GameObject.Find("Conductor").SetActive(false);
 
+        paused = true;
     }
 
     public IEnumerator LevelCompleted()

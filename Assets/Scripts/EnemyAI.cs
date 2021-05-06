@@ -49,23 +49,27 @@ public class EnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(lookDist);
-
-        if(conductor.songPositionInBeats > nextTimeToMove )
+        if (!gameUI.paused)
         {
-            nextTimeToMove = Mathf.Floor(conductor.songPositionInBeats) + 1;
+            Debug.Log(lookDist);
 
-            Move();
-        }
-
-        // check if player in sight
-        for(int i = 1; i <= lookDist; i++)
-        {
-            float distance = Vector3.Distance(player.transform.position, transform.position + (lookDir * i));
-
-            if(distance == 0)
+            if (conductor.songPositionInBeats > nextTimeToMove)
             {
-                gameUI.openGameOverScreen();
+                nextTimeToMove = Mathf.Floor(conductor.songPositionInBeats) + 1;
+
+                Move();
+            }
+
+            // check if player in sight
+            for (int i = 1; i <= lookDist; i++)
+            {
+                float distance = Vector3.Distance(player.transform.position, transform.position + (lookDir * i));
+
+                if (distance == 0)
+                {
+                    Invoke("InvokeGameOver", 1f);
+                    gameUI.paused = true;
+                }
             }
         }
 
@@ -212,5 +216,10 @@ public class EnemyAI : MonoBehaviour
         }
 
         lookDist = j;
+    }
+
+    void InvokeGameOver()
+    {
+        gameUI.openGameOverScreen();
     }
 }

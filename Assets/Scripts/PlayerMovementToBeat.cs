@@ -37,71 +37,72 @@ public class PlayerMovementToBeat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        //Debug.Log(songPositionInBeats);
-        //Debug.Log(nextTimeToMove);
-
-        /*
-        if(songPositionInBeats >= nextTimeToMove)
+        if (!gameUI.paused)
         {
-            
-            transform.position += new Vector3(1, 0, 0);
-            if(transform.position.x % 0.5 != 0)
+            //Debug.Log(songPositionInBeats);
+            //Debug.Log(nextTimeToMove);
+
+            /*
+            if(songPositionInBeats >= nextTimeToMove)
             {
-                transform.position = new Vector3((float)Math.Truncate(transform.position.x) + 0.5f, transform.position.y, transform.position.z);
+
+                transform.position += new Vector3(1, 0, 0);
+                if(transform.position.x % 0.5 != 0)
+                {
+                    transform.position = new Vector3((float)Math.Truncate(transform.position.x) + 0.5f, transform.position.y, transform.position.z);
+                }
+                nextTimeToMove = Mathf.Floor(songPositionInBeats) + 1;
+                Debug.Log(nextTimeToMove);
             }
-            nextTimeToMove = Mathf.Floor(songPositionInBeats) + 1;
-            Debug.Log(nextTimeToMove);
-        }
-        */
+            */
 
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            inputTime = conductor.songPositionInBeats;
-            moveDir = Vector2.up;
-            //Debug.Log("current " + songPositionInBeats);
-            //Debug.Log("next " + Mathf.Round(nextTimeToMove));
-        }
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            inputTime = conductor.songPositionInBeats;
-            moveDir = Vector2.left;
-            //Debug.Log("current " + songPositionInBeats);
-            //Debug.Log("next " + Mathf.Round(nextTimeToMove));
-        }
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            inputTime = conductor.songPositionInBeats;
-            moveDir = Vector2.down;
-            //Debug.Log("current " + songPositionInBeats);
-            //Debug.Log("next " + Mathf.Round(nextTimeToMove));
-        }
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                inputTime = conductor.songPositionInBeats;
+                moveDir = Vector2.up;
+                //Debug.Log("current " + songPositionInBeats);
+                //Debug.Log("next " + Mathf.Round(nextTimeToMove));
+            }
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                inputTime = conductor.songPositionInBeats;
+                moveDir = Vector2.left;
+                //Debug.Log("current " + songPositionInBeats);
+                //Debug.Log("next " + Mathf.Round(nextTimeToMove));
+            }
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                inputTime = conductor.songPositionInBeats;
+                moveDir = Vector2.down;
+                //Debug.Log("current " + songPositionInBeats);
+                //Debug.Log("next " + Mathf.Round(nextTimeToMove));
+            }
 
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            inputTime = conductor.songPositionInBeats;
-            moveDir = Vector2.right;
-            //Debug.Log("current " + songPositionInBeats);
-            //Debug.Log("next " + Mathf.Round(nextTimeToMove));
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                inputTime = conductor.songPositionInBeats;
+                moveDir = Vector2.right;
+                //Debug.Log("current " + songPositionInBeats);
+                //Debug.Log("next " + Mathf.Round(nextTimeToMove));
+            }
+
+            //
+            Vector3Int gridPos = groundTilemap.WorldToCell(transform.position + moveDir);
+
+            if (nextTimeToMove >= inputTime - 0.2f && nextTimeToMove <= inputTime + 0.2f && !movedThisBeat && groundTilemap.HasTile(gridPos))
+            {
+                transform.position += moveDir;
+                nextTimeToMove = Mathf.Round(conductor.songPositionInBeats) + 1;
+
+                movedThisBeat = true;
+            }
+
+            if (conductor.songPositionInBeats >= nextTimeToMove - 0.2f)
+            {
+                movedThisBeat = false;
+            }
+            //Debug.Log("beat " + Mathf.Round(nextTimeToMove));
         }
-
-        //
-        Vector3Int gridPos = groundTilemap.WorldToCell(transform.position + moveDir);
-
-        if(nextTimeToMove >= inputTime - 0.2f && nextTimeToMove <= inputTime + 0.2f  && !movedThisBeat && groundTilemap.HasTile(gridPos))
-        {
-            transform.position += moveDir;
-            nextTimeToMove = Mathf.Round(conductor.songPositionInBeats) + 1;
-            
-            movedThisBeat = true;
-        }
-
-        if(conductor.songPositionInBeats >= nextTimeToMove - 0.2f)
-        {
-            movedThisBeat = false;
-        }
-        //Debug.Log("beat " + Mathf.Round(nextTimeToMove));
-
     }
 
     private void FixedUpdate()
