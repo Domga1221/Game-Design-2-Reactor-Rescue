@@ -6,9 +6,9 @@ public class MainMenu : MonoBehaviour
 {
 
     public Animator playTransition;
-    public void PlayGame()
+    public void PlayGame(int levelIndex)
     {
-        StartCoroutine(LoadGame());
+        StartCoroutine(LoadGame(levelIndex));
     }
 
     public void QuitGame()
@@ -17,12 +17,12 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-    IEnumerator LoadGame()
+    IEnumerator LoadGame(int levelIndex)
     {
         playTransition.SetTrigger("StartGame");
 
-        yield return new WaitForSeconds(1.75f);
+        yield return new WaitForSeconds(2f);
 
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + levelIndex);
     }
 }
