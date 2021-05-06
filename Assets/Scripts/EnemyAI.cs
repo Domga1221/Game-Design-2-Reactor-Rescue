@@ -36,6 +36,8 @@ public class EnemyAI : MonoBehaviour
     public Tilemap groundTilemap;
     public Tilemap collisionTilemap;
 
+    public GameUI gameUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -63,7 +65,7 @@ public class EnemyAI : MonoBehaviour
 
             if(distance == 0)
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                gameUI.openGameOverScreen();
             }
         }
 

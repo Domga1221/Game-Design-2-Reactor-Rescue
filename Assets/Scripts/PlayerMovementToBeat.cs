@@ -25,6 +25,8 @@ public class PlayerMovementToBeat : MonoBehaviour
     public int score;
     public int numberOfCollectibles;
 
+    public GameUI gameUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -140,7 +142,8 @@ public class PlayerMovementToBeat : MonoBehaviour
 
         if(collision.gameObject.layer == LayerMask.NameToLayer("Goal") && score == numberOfCollectibles)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            StartCoroutine(gameUI.LevelCompleted());
         }
     }
+
 }
