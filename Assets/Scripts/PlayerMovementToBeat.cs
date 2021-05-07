@@ -101,20 +101,28 @@ public class PlayerMovementToBeat : MonoBehaviour
             {
                 movedThisBeat = false;
             }
-            //Debug.Log("beat " + Mathf.Round(nextTimeToMove));
+
+            // neu
+            if(inputTime >= nextTimeToMove -0.5 && inputTime <= nextTimeToMove - 0.2)
+            {
+                movedThisBeat = true;
+                nextTimeToMove = Mathf.Round(conductor.songPositionInBeats) + 2;
+            }
+
+            Debug.Log(nextTimeToMove);
+
+            if (conductor.songPositionInBeats > nextTimeToMove + 0.2f)
+            {
+                nextTimeToMove = Mathf.Floor(conductor.songPositionInBeats) + 1;
+
+                //movedThisBeat = false;
+                //Debug.Log("beat " + Mathf.Round(songPositionInBeats));
+            }
         }
     }
 
     private void FixedUpdate()
     {
-        if (conductor.songPositionInBeats > nextTimeToMove + 0.2f)
-        {
-            nextTimeToMove = Mathf.Floor(conductor.songPositionInBeats) + 1;
-
-            movedThisBeat = false;
-            //Debug.Log("beat " + Mathf.Round(songPositionInBeats));
-        }
-
         if(conductor.songPositionInBeats >= nextTimeToMove -0.2f && conductor.songPositionInBeats <= nextTimeToMove + 0.2f)
         {
             //renderer.color = new Color(0, 1, 0);

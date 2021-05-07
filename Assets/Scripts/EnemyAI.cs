@@ -51,7 +51,6 @@ public class EnemyAI : MonoBehaviour
     {
         if (!gameUI.paused)
         {
-            Debug.Log(lookDist);
 
             if (conductor.songPositionInBeats > nextTimeToMove)
             {
