@@ -333,6 +333,60 @@ Tilemap:
     type: 3}
   m_PrefabInstance: {fileID: 5709319965642132318}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2030488103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2030488104}
+  - component: {fileID: 2030488105}
+  m_Layer: 0
+  m_Name: DiscoLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2030488104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030488103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2030488105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030488103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a24275daa66962846831dc23b93cc032, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundTilemap: {fileID: 1761246372}
+  discoLight: {fileID: 7740208294221456851, guid: e47c0b5e9a510c040a6cfecd91e2b867,
+    type: 3}
+  nextTimeToSwitch: 0
+  moduloResult: 0
+  moduloSwitch: 0
+  availablePlaces: []
+  conductor: {fileID: 442234339}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 4096
 --- !u!1001 &670461285744968088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -370,6 +424,11 @@ PrefabInstance:
       propertyPath: collisionTilemap
       value: 
       objectReference: {fileID: 369113824}
+    - target: {fileID: 670461285327035484, guid: 390eddd39d4b7fe41ae722d53f65a904,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 670461285327035485, guid: 390eddd39d4b7fe41ae722d53f65a904,
         type: 3}
       propertyPath: m_RootOrder
@@ -613,6 +672,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3598302331032000391, guid: 91eafa441e2c6944a9d2542b8343dc27,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91eafa441e2c6944a9d2542b8343dc27, type: 3}
 --- !u!1001 &4190605721682783169
@@ -681,6 +745,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4190605719991161415, guid: 6f9ddf4ed38a58140bf8f834b1a55bfa,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4190605719991161417, guid: 6f9ddf4ed38a58140bf8f834b1a55bfa,
         type: 3}
@@ -785,6 +854,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6219205888504406045, guid: 175abd0e8e0b79044a7d3b10f0d78422,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6219205888959806906, guid: 175abd0e8e0b79044a7d3b10f0d78422,
         type: 3}
       propertyPath: m_RootOrder
@@ -844,6 +918,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Collectables
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219205889290715200, guid: 175abd0e8e0b79044a7d3b10f0d78422,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6219205890008426911, guid: 175abd0e8e0b79044a7d3b10f0d78422,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 175abd0e8e0b79044a7d3b10f0d78422, type: 3}

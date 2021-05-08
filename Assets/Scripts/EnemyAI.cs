@@ -186,7 +186,6 @@ public class EnemyAI : MonoBehaviour
                 if(enemyDirections.directions[index] == EnemyDirections.Direction.RIGHT ||
                     enemyDirections.directions[index] == EnemyDirections.Direction.TURN_RIGHT)
                 {
-                    Debug.Log("vision right");
                     sideVision[j].SetActive(true);
                 }
 

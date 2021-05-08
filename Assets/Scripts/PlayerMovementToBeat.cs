@@ -106,10 +106,11 @@ public class PlayerMovementToBeat : MonoBehaviour
             if(inputTime >= nextTimeToMove -0.5 && inputTime <= nextTimeToMove - 0.2)
             {
                 movedThisBeat = true;
-                nextTimeToMove = Mathf.Round(conductor.songPositionInBeats) + 2;
-            }
+                nextTimeToMove = Mathf.Round(conductor.songPositionInBeats) + 1;
 
-            Debug.Log(nextTimeToMove);
+                Debug.Log("input: " +inputTime);
+                Debug.Log("next: " + nextTimeToMove);
+            }
 
             if (conductor.songPositionInBeats > nextTimeToMove + 0.2f)
             {
