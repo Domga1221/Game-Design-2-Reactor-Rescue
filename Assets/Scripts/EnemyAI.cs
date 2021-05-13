@@ -62,7 +62,8 @@ public class EnemyAI : MonoBehaviour
             // check if player in sight
             for (int i = 1; i <= lookDist; i++)
             {
-                float distance = Vector3.Distance(player.transform.position, transform.position + (lookDir * i));
+                Vector3 playerPosition = new Vector3(player.transform.position.x, player.transform.position.y + 0.5f, player.transform.position.z);
+                float distance = Vector3.Distance(playerPosition, transform.position + (lookDir * i));
 
                 if (distance == 0)
                 {
