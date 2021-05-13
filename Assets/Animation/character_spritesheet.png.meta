@@ -134,26 +134,12 @@ TextureImporter:
         y: 12
         width: 346
         height: 573
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-=======
-      alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0, y: 0}
-=======
-      pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
       alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> parent of a08d07b... fi
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
       spriteID: 76036414b65394560800000000000000
       internalID: 7298423405903491175
@@ -167,27 +153,10 @@ TextureImporter:
         serializedVersion: 2
         x: 727
         y: 12
-<<<<<<< Updated upstream
-        width: 345
-        height: 570
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-=======
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         width: 346
         height: 573
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-      alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> parent of a08d07b... fi
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,25 +175,9 @@ TextureImporter:
         x: 1327
         y: 12
         width: 346
-<<<<<<< Updated upstream
-        height: 562
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-=======
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         height: 573
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-      alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> parent of a08d07b... fi
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -243,25 +196,9 @@ TextureImporter:
         x: 1927
         y: 12
         width: 346
-<<<<<<< Updated upstream
-        height: 552
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-=======
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         height: 573
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-      alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> parent of a08d07b... fi
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,27 +216,10 @@ TextureImporter:
         serializedVersion: 2
         x: 2527
         y: 12
-<<<<<<< Updated upstream
-        width: 345
-        height: 543
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-=======
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         width: 346
         height: 573
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-      alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> parent of a08d07b... fi
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -318,25 +238,9 @@ TextureImporter:
         x: 3127
         y: 12
         width: 346
-<<<<<<< Updated upstream
-        height: 535
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-=======
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         height: 573
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-      alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> parent of a08d07b... fi
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -355,25 +259,9 @@ TextureImporter:
         x: 3727
         y: 12
         width: 346
-<<<<<<< Updated upstream
-        height: 532
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-=======
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         height: 573
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-      alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> parent of a08d07b... fi
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -390,29 +278,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 4327
-<<<<<<< Updated upstream
         y: 12
         width: 345
-        height: 535
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-=======
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
-        y: 10
-        width: 346
         height: 573
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-      alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> parent of a08d07b... fi
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -431,25 +301,9 @@ TextureImporter:
         x: 4927
         y: 12
         width: 346
-<<<<<<< Updated upstream
-        height: 543
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-=======
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         height: 573
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-      alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> parent of a08d07b... fi
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -468,25 +322,9 @@ TextureImporter:
         x: 5527
         y: 12
         width: 346
-<<<<<<< Updated upstream
-        height: 553
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-=======
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         height: 573
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-      alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> parent of a08d07b... fi
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -504,27 +342,10 @@ TextureImporter:
         serializedVersion: 2
         x: 6127
         y: 12
-<<<<<<< Updated upstream
-        width: 345
-        height: 563
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-=======
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         width: 346
         height: 573
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-      alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> parent of a08d07b... fi
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -543,25 +364,9 @@ TextureImporter:
         x: 6727
         y: 12
         width: 346
-<<<<<<< Updated upstream
-        height: 570
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-=======
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
         height: 573
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
-      alignment: 0
       pivot: {x: 0, y: 0}
->>>>>>> parent of a08d07b... fi
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -576,7 +381,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 3972b8c8e76522744a9bc3afc62e1416
     internalID: 0
     vertices: []
     indices: 
