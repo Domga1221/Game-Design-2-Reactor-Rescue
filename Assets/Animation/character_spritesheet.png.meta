@@ -134,12 +134,26 @@ TextureImporter:
         y: 12
         width: 346
         height: 573
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+      alignment: 0
+<<<<<<< Updated upstream
+      pivot: {x: 0, y: 0}
+=======
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
       alignment: 0
       pivot: {x: 0, y: 0}
+>>>>>>> parent of a08d07b... fi
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 76036414b65394560800000000000000
       internalID: 7298423405903491175
@@ -147,10 +161,422 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: character_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 12
+<<<<<<< Updated upstream
+        width: 345
+        height: 570
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+=======
+        width: 346
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> parent of a08d07b... fi
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11951ff8a0c881c00800000000000000
+      internalID: 871600504888711441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 12
+        width: 346
+<<<<<<< Updated upstream
+        height: 562
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+=======
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> parent of a08d07b... fi
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd392e3423c48580800000000000000
+      internalID: -8825714809310200392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 12
+        width: 346
+<<<<<<< Updated upstream
+        height: 552
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+=======
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> parent of a08d07b... fi
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f341cc4a90fe2100800000000000000
+      internalID: 85269988469982200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 12
+<<<<<<< Updated upstream
+        width: 345
+        height: 543
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+=======
+        width: 346
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> parent of a08d07b... fi
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6295761ce4e5d70800000000000000
+      internalID: 9033744495121344233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3127
+        y: 12
+        width: 346
+<<<<<<< Updated upstream
+        height: 535
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+=======
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> parent of a08d07b... fi
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2898527fd53f11c60800000000000000
+      internalID: 7787272815604238722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 12
+        width: 346
+<<<<<<< Updated upstream
+        height: 532
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+=======
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> parent of a08d07b... fi
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65766d98bb3cef00800000000000000
+      internalID: 1147357669173392746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 4327
+<<<<<<< Updated upstream
+        y: 12
+        width: 345
+        height: 535
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+=======
+        y: 10
+        width: 346
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> parent of a08d07b... fi
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20faae3d0f6e2e40800000000000000
+      internalID: 5633562286563717163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 4927
+        y: 12
+        width: 346
+<<<<<<< Updated upstream
+        height: 543
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+=======
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> parent of a08d07b... fi
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ec51b5cfd594220800000000000000
+      internalID: 2470609209030725205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 5527
+        y: 12
+        width: 346
+<<<<<<< Updated upstream
+        height: 553
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+=======
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> parent of a08d07b... fi
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be2d372cd7f6d120800000000000000
+      internalID: 2438408773190889138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 6127
+        y: 12
+<<<<<<< Updated upstream
+        width: 345
+        height: 563
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+=======
+        width: 346
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> parent of a08d07b... fi
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee7857a7e4080e70800000000000000
+      internalID: 9081514041584156396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: character_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 6727
+        y: 12
+        width: 346
+<<<<<<< Updated upstream
+        height: 570
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+=======
+        height: 573
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
+=======
+      alignment: 0
+      pivot: {x: 0, y: 0}
+>>>>>>> parent of a08d07b... fi
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9b8c61a31a172f0800000000000000
+      internalID: -976822373300258389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
