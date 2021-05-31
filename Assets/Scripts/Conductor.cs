@@ -20,6 +20,7 @@ public class Conductor : MonoBehaviour
     {
 
         audioSource = GetComponent<AudioSource>();
+        audioSource.volume = PlayerPrefs.GetFloat("SliderVolumeLevel", audioSource.volume);
 
         secPerBeat = 60f / songBpm;
 
